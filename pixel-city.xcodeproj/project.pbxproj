@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C2BDCEA8F1F89E3711A839DE /* Pods_pixel_city.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BE6DA2543F570F1782FBDD9 /* Pods_pixel_city.framework */; };
+		D34A5DB32153BD1700646B22 /* DroppablePin.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34A5DB22153BD1700646B22 /* DroppablePin.swift */; };
 		D39EB65A21538CBA0062EC49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39EB65921538CBA0062EC49 /* AppDelegate.swift */; };
 		D39EB65C21538CBA0062EC49 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39EB65B21538CBA0062EC49 /* MapVC.swift */; };
 		D39EB65F21538CBA0062EC49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D39EB65D21538CBA0062EC49 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 		32B5DC580D4B237C475E3FAC /* Pods-pixel-city.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pixel-city.release.xcconfig"; path = "Pods/Target Support Files/Pods-pixel-city/Pods-pixel-city.release.xcconfig"; sourceTree = "<group>"; };
 		4D72C2AEBB85392838BE039D /* Pods-pixel-city.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pixel-city.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pixel-city/Pods-pixel-city.debug.xcconfig"; sourceTree = "<group>"; };
 		9BE6DA2543F570F1782FBDD9 /* Pods_pixel_city.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pixel_city.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D34A5DB22153BD1700646B22 /* DroppablePin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroppablePin.swift; sourceTree = "<group>"; };
 		D39EB65621538CBA0062EC49 /* pixel-city.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pixel-city.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D39EB65921538CBA0062EC49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D39EB65B21538CBA0062EC49 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 		D39EB66C21538D570062EC49 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D34A5DB22153BD1700646B22 /* DroppablePin.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D39EB65C21538CBA0062EC49 /* MapVC.swift in Sources */,
+				D34A5DB32153BD1700646B22 /* DroppablePin.swift in Sources */,
 				D39EB65A21538CBA0062EC49 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
